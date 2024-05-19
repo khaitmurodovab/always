@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    font-size: 5vh;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.header{
+    background-color: black;
+    width: 100%;
+    height: 11vh;
+}
+.header-nav{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.header-menu{
+    display: flex;
+    column-gap: 110px;
+}
+.header-item{
+    display: flex;
+    align-items: center;
+}
+.header-link{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+.lang{
+    font-weight: 40px;
+    display: flex;
+    font-size: 9vh;
+}
+.main{
+    display: flex;
+    column-gap: 70px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.content{
+    background-color: black;
+    width: 35vh;
+    height: 35vh;
+    transition: 0.5s;
+}
+.content:hover{
+    background-color: red;
+    border-radius: 40px 0px 40px 0px;
+}
+.content-p{
+    text-align: center;
+}
+.main2{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.content-p2{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.content-p3{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.foot{
+    margin-top: 20px;
+    background-color: black;
+    width: 100%;
+    height: 4vh;
+}
+.class{
+    color: white;
+    text-align: center;
+}
+
